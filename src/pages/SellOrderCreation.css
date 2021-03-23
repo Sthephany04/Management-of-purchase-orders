@@ -1,0 +1,39 @@
+.buttonAddProduct {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerBanner {
+  background-image: url('../assets/COVER-MELONN.png');
+  background-size: contain;
+  height: 140px;
+}
+
+.titleList {
+  margin: 20px 0;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.buttonBack {
+  height: 50px;
+}
+
+.messageValidate{
+  color: #D50000;
+  text-align: center;
+  font-weight: 400;
+}
+
+.buttonDelete {
+  background-color: transparent;
+  border: none;
+  background-image: url('../assets/delete.png');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,22 @@
+.list_row {
+  cursor: pointer;
+}
+
+.button_create {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerBanner {
+  background-image: url('../assets/COVER-MELONN.png');
+  background-size: contain;
+  height: 140px;
+}
+
+.titleList {
+  margin: 20px 0;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+.containerItems {
+  display: flex;
+}
+
+.containerItems p {
+  margin-left: 10px;
+}
+
+.containerBanner {
+  background-image: url('../assets/COVER-MELONN.png');
+  background-size: contain;
+  height: 140px;
+}
+
+.titleDetails {
+  margin: 20px 0 50px 0;
+}
+
+
+
+
+
