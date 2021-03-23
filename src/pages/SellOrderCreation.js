@@ -58,6 +58,9 @@ const SellOrderCreation = () => {
       values.line_items = arrayProducts;      
       createOrder(values)
         .then(res => console.log(res))
+      setTimeout(() => {
+        window.location="/"
+      }, 1000)
       setArrayProducts([]);
       resetForm({});
     } else{      
@@ -179,7 +182,7 @@ const SellOrderCreation = () => {
                   className="form-control"
                   name="buyer_phone"
                   autoComplete="off"
-                  placeholder="Telefono comprador"
+                  placeholder="+573054954777"
                   type="text"          
                 />
                 <ErrorMessage
@@ -211,7 +214,7 @@ const SellOrderCreation = () => {
                   className="form-control"
                   name="shipping_address"
                   autoComplete="off"
-                  placeholder="Direccion de Envio"
+                  placeholder="Calle 8C # 88B - 12"
                   type="text"          
                 />
                 <ErrorMessage

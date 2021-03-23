@@ -48,7 +48,7 @@ const SellOrderList = () => {
         </tbody>
       </table>
       <div className="button_create">
-        <button type="button" className="btn btn-light btn-lg">
+        <button type="button" className="btn btn-light">
           <Link to={ `/ordercreation/` }>
             Crear orden
           </Link>

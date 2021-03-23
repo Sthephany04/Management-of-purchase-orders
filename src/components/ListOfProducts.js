@@ -62,7 +62,12 @@ const ListOfProducts = ({ arrayProducts, setArrayProducts, setValidateProducts, 
                 <td>{item.quantity}</td>
                 <td>{item.nameProduct}</td>   
                 <td>{item.weightProduct}</td>
-                <td><button onClick={() => handleDelete(item) } className="buttonDelete"></button></td>
+                <td>
+                  <button
+                    type="button"
+                    onClick={ () => handleDelete(item) } 
+                    className="buttonDelete"></button>
+                </td>
               </tr>                
             ))
           }   
