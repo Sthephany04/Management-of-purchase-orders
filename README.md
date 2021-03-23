@@ -12,11 +12,11 @@ Se utilizo la libreria de React.js para el desarrollo del proyecto, así como bo
 
 En el frontend contamos con 3 páginas:
  - Lista de pedidos de venta.
- <img src="src/assets/Readme/ListOrder.png" width = 300px>
+ <img src="src/assets/Readme/ListOrder.png" width = 600px>
  - Creación de pedidos de venta.
-  <img src="src/assets/Readme/CreateOrder.png" width = 300px>
+  <img src="src/assets/Readme/CreateOrder.png" width = 600px>
  - Detalle de la orden de venta.
- <img src="src/assets/Readme/DetailsOrder.png" width = 300px>
+ <img src="src/assets/Readme/DetailsOrder.png" width = 600px>
 
 ## 3. Desarrollo del Backend
 
