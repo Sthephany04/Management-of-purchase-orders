@@ -12,11 +12,11 @@ Se utilizo la libreria de React.js para el desarrollo del proyecto, así como bo
 
 En el frontend contamos con 3 páginas:
  - Lista de pedidos de venta.
-![](src/assets/Readme/ListOrder.png)
+ <img src="src/assets/Readme/ListOrder.png" width = 300px>
  - Creación de pedidos de venta.
-![](src/assets/Readme/CreateOrder.png)
+  <img src="src/assets/Readme/CreateOrder.png" width = 300px>
  - Detalle de la orden de venta.
-![](src/assets/Readme/DetailsOrder.png)
+ <img src="src/assets/Readme/DetailsOrder.png" width = 300px>
 
 ## 3. Desarrollo del Backend
 
@@ -32,7 +32,7 @@ _Traer todas las ordenes._
 _Traer una orden por medio del id._
 - #### **GET** `/api/method`.
 _Traer los metodos de envío._
-- #### **POST** `/api/method`.
+- #### **POST** `/api/create`.
 _Crear una nueva orden._
 
 ## 4. Ejecutar el proyecto en local
